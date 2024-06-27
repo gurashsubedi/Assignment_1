@@ -31,48 +31,6 @@
     transition: background-color 0.3s ease;
 }
 
-/* drop down menu */
-.nav-link {
-    display: block;
-    padding: 10px;
-    text-decoration: none;
-    color: black;
-}
-
-.nav-link:hover {
-    background-color: #ddd;
-}
-
-.dropdown {
-    position: relative;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    left: 0;
-    top: 100%;
-    background-color: white;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    width: 200px;
-}
-
-.dropdown-content a {
-    padding: 10px;
-    display: block;
-    text-decoration: none;
-    color: black;
-}
-
-.dropdown-content a:hover {
-    background-color: #ddd;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
 .container{
     display: flex;
 }
@@ -513,10 +471,43 @@
 
 }
 
+.video-link-new{
+    text-decoration: none;
+    font-family: "jaini";
+    
+}
 
+/* Site report table of content */
+.index h2 {
+    text-align: left;
+    margin-left: 25vh;
+    
+}
+.index h3 {
+    text-align: left;
+    margin-left: 25vh;
+}
+.primary-obj-intro h3{
+    margin-left: 5vh;
+}
 
+.index a{
+    color: #000;
+    text-decoration: none
+}
 
+.into-part h3{
+    font-weight: normal;
+}
 
+.primary-obj ul li{
+    font-size:15px;
+}
+
+/* experience  */
+.experience-part h3{
+    font-weight: normal;
+}
 
 
 
