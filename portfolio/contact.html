@@ -1,20 +1,27 @@
-<!DOCTYPE html
+                    <!-- Contact Page -->
+<!DOCTYPE html>
 <html lang="en">
 <head>
- <meta charset="UTF-8">
+    <meta charset="UTF-8">
     <title>Portfolio | Contact</title>
     
-     <link rel="stylesheet" href="styless.css">
+    <link rel="stylesheet" href="styless.css">
     <!-- fontawsome CDNS linke -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+
 
 </head>
 <body>
-    <div class="hamburger">
-        <div></div>
-        <div></div>
-        <div></div>
-    </div>
+     <!-- hamburger icon -->
+     <div class="togglearea">
+		<label for="bars">
+		    <span></span>
+            <span></span>
+            <span></span>
+		</label>
+	</div>
+    <input type="checkbox" id="bars">
 
     <div class="sidebar">
         <div class="image_container">
@@ -42,10 +49,10 @@
 
     <hr class="contact-hr">
     <div class="contact-info">
-        <img src="image/map.jpg" class="map-image">
+        <img src="image/map.jpg" class="map-image" alt="world-map">
 
         <div class="contact-form">
-            <form action="#" method="#">
+            <form action="#" method="POST">
                 <div class="form-group">
                     <label for="name">Full Name:</label>
                     <input type="text" id="name" placeholder="Enter your name">
@@ -86,10 +93,6 @@
         </div>
     </div>
 
-
-
-
-</body>
     <footer>
         <div class="footer">
             <div class="footer-name">
@@ -133,4 +136,7 @@
             
         </div>
     </footer>
+
+    
+</body>
     </html>
