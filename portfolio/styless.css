@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Jaini&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
@@ -673,43 +672,52 @@
 
 
 
+
+
+
+
+
+
+
+
+
 /* for hamburger icon */
 #bars{
-	display: none;
+    display: none;
 }
 
 .togglearea{
     background-color: green;
-    padding: 20px;	
+    padding: 20px;  
     width: 50px;
-	justify-content: flex-end;
-	display: none;
+    justify-content: flex-end;
+    display: none;
 }
 .togglearea label
 {
-	background-color: white;
-	height: 45px;
-	width: 50px;
-	color: black;
-	border-radius: 6px;
-	cursor: pointer;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
+    background-color: white;
+    height: 45px;
+    width: 50px;
+    color: black;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .togglearea label span{
-	background-color: black;
-	height: 4px;
-	width: 70%;
-	margin: 2px 0px;
+    background-color: black;
+    height: 4px;
+    width: 70%;
+    margin: 2px 0px;
 }
 
 @media screen and (max-width:1000px){
 
-    .togglearea{	
-		display: block;
-        width:60vh;
+    .togglearea{    
+        display: block;
+        width:100vh;
     }
     .sidebar {
         display: none;
@@ -752,8 +760,8 @@
     }
     .footer{
         /* margin-top: -20vh; */
-        width: 60vh;
-        height: 25vh;
+        width: 100vh;
+        height: 30vh;
     }
     .footer-info{
         margin-left: -0.5vh;
@@ -794,6 +802,17 @@
         display: none;
     }
 
+    .all-project-display{
+        margin-left: 20vh;
+    }
+
+    .develop-project{
+        margin-left: 20vh;
+    }
+
+    .developed{
+        margin-left: 20vh;
+    }
 
     /* contact page */
     .contact-info{
@@ -814,8 +833,7 @@
 
     .contact-form{
         margin-left: -5vh;
-        /* height:25vh; */
-        width: 25vh;
+    
     }
 
     .get-in-touch{
@@ -826,25 +844,65 @@
     }
 
     /* video Demo site */
+
+    .video {
+        display: none;
+    }
     .video2{
         display: block;
         margin-left: 10vh;
         height: 44vh;
     }
 
+
     /* site report */
+    .logo{
+        margin-left:25vh;
+    }
+
+    .college-info{
+        margin-left:25vh;
+    }
+    .college-name h3{
+        font-size:30px;
+    }
+    .univesity-name h3{
+        font-size:30px;
+    }
+
+    .project-name h3{
+        margin-left:25vh;
+        font-size:25px;
+    }
+
+    .project-report h3{
+        margin-left:25vh;
+        font-size:25px;
+    }
+
+    .submission-detail .submit-to h3{
+        margin-left:25vh;
+        font-size:25px;
+    }
+
+
     .index{
         margin-left: -25vh;
+        font-size:28px;
     }
+
     .introduction-part{
         margin-left: -25vh;
         display: block;
+        font-size:28px;
     }
     .introduction-part h1, h3, h4{
         margin-left: 3vh;
+        font-size:28px;
     }
     .introduction-part p{
         margin-left: 3vh;
+        font-size:28px;
     }
     .introdunction-image img{
         height: 30vh;
@@ -854,13 +912,16 @@
 
     .experience-part h1{
         margin-left: 3vh;
+        font-size:28px;
     }
 
     .experience-part h3{
         margin-left: 3vh;
+        font-size:28px;
     }
     .experience-part p{
         margin-left: 3vh;
+        font-size:28px;
     }
 
     .design-part{
@@ -869,12 +930,15 @@
     .design-images{
         display: none;
     }
-    
+    hr{
+        display: none;
+    }
     .module-experience{
-       display: none;
+        display: none;
     }
     
     .progress-image .progress-image-info-overlay{
         display: none;
     }
 }
+
