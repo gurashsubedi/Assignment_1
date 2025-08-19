@@ -1,0 +1,944 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Jaini&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.sidebar {
+    min-width: 140px;
+    max-width: 150px;
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    height: 100vh;
+    position: fixed;
+    margin-top: -1vh;
+    margin-left: -1vh;
+}
+
+.image_container {
+    text-align: left;
+    margin: 0 9px 10px;
+}
+.image_container img {
+    border-radius: 51%;
+    width: 101px;
+    height: 101px;
+}
+
+.sidebar a {
+    display: block;
+    color: #000;
+    padding: 16px;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.container{
+    display: flex;
+}
+
+.image-container .tiger{
+    margin-top: 5vh;
+    margin-right: 5vh;
+    height:75vh;
+    width:75vh;
+    border-radius: 10vh;
+
+}
+
+.image-container {
+    position: relative;
+    width: 75vh;
+    height:75vh;
+    margin-right: 2vh;
+    
+}
+
+.image-container img {
+    width: 100%;
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 5vh;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); 
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10vh;
+
+}
+
+.image-container:hover .overlay {
+    opacity: 1;
+}
+
+
+.title .homepageTitle{
+    margin-left:40vh;
+    text-align: center;
+    display: flex;
+    padding-top:25vh;
+    font-size: 25px;
+}
+
+.title .homepageTitle .Software-Engineering{
+    margin-left:10px;
+    color: green;
+    font-family: "Jaini", system-ui;
+}
+
+.title .homepageTitle .aboutme{
+    color: goldenrod;
+    font-family: "Jaini", system-ui;
+}
+.desc{
+    margin-left: 40vh;
+    font-size: 20px;
+    font-family: "Jaini", system-ui;
+}
+
+.tag-line{
+    margin-left: 40vh;
+    color: rgb(54, 3, 172);
+    font-family: "Jaini", system-ui;;
+    font-size: 30px;
+    
+}
+.tag-line {
+    overflow: hidden; 
+}
+
+.tag-line p {
+    display: inline-block;
+    position: relative;
+    left: -100%;
+    animation: slide-in 5s forwards; 
+}
+
+@keyframes slide-in {
+    0% {
+        left: -100%;
+    }
+    100% {
+        left: 0;
+    }
+}
+
+
+.footer{
+    background-color:rgb(53, 111, 2);
+    height:55vh;
+    margin-top: 5vh;
+}
+
+
+.footer .footer-name{
+    text-align: center;
+    padding-top: 4vh;
+    color:#cfd9df;
+    font-size: 25px;
+    padding: 5px;
+    font-family: "Jaini", system-ui;;
+
+}
+
+.icons{
+    margin-top: 5vh;
+}
+.icons a {
+    color: white; 
+    text-decoration: none; 
+    margin: 0 10px; 
+}
+
+.icons a:hover {
+    color: #ddd;
+}
+
+.footer-info{
+    display: flex;
+    margin-left: 45vh;
+
+}
+.envalop{
+    margin-right: 2vh;
+}
+.map{
+    margin-right: 2vh;
+}
+
+.address-info{
+    margin-left: 5vh;
+}
+.email{
+    font-size:20px;
+}
+.email-info{
+    font-size: 20px;
+}
+.address-info{
+    font-size: 20px;
+}
+
+.phone{
+    font-size: 20px;
+}
+
+.phone{
+    margin-left: 2vh;
+    margin-right: 2vh;
+}
+
+.copyright-claim{
+    font-size: 20px;
+    margin-top: 5vh;
+}
+
+
+.contact-me{
+    margin-left: 90vh;
+    display: flex;
+    font-family:"jaini";
+}
+.contact-me .contact{
+    color: goldenrod;
+    
+}
+.contact-me .me{
+    color: #218838;
+    margin-left: 1vh;
+}
+
+.contact-hr{
+    margin-left: 85vh;
+    margin-right: 90vh;
+    margin-top: -2vh;
+}
+
+.contact-info{
+    margin-left: 40vh;
+    display: flex;
+}
+
+.contact-form {
+    background-color: rgba(0, 0, 0, 0.6); 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    color: #fff; 
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-group input::placeholder {
+    color: #aaa;
+}
+
+.form-group button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.form-group button:hover {
+    background-color: #218838;
+}
+
+.contact-info .map-image {
+
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.contact-info .map-image:hover {
+    transform: scale(1.3);
+    opacity: 0.8;
+}
+
+
+.get-in-touch{
+    display: flex;
+    margin-left: 90vh;
+    font-family: "jaini";
+}
+
+.get-in-touch .get-i{
+    color: goldenrod;
+}
+.get-in-touch .n-touch{
+    color: #218838;
+}
+
+.email-btn .btn a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 90vh;
+    transition: background-color 0.3s ease;
+}
+
+.email-btn .btn a:hover {
+    background-color: darkgreen;
+}
+
+
+.demo{
+    text-align: center;
+    font-family: "jaini";
+    color: #218838
+    ;
+}
+
+.video{
+    margin-left: 70vh;
+    
+}
+
+
+
+/* Project page */
+.project-title{
+    text-align: center;
+    font-family: "jaini";
+    color: #218838;
+}
+
+.projects-list{
+    text-align: center;
+}
+.projects-list a{
+    text-decoration: none;
+    margin: 5vh;
+    font-size: 25px;
+    font-family: "jaini";
+}
+.projects-list .all-project{
+    color: #218838;
+}
+.projects-list .designed-project{
+    color: goldenrod;
+}
+.projects-list .all-project{
+    color: blueviolet;
+}
+
+.demo-project-1 {
+    display: grid;
+    grid-template-columns: repeat(3, 0.5fr); 
+    grid-template-rows: repeat(2, auto); 
+    gap: 5px; 
+    padding: 10px;
+    margin-left: 19vh;
+}
+
+.image-holder {
+    position: relative;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.image-holder img {
+    max-width: 100%;
+    height: 30vh;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.image-holder p {
+    margin: 0;
+    font-size: 14px;
+}
+
+/* Overlay CSS */
+.i-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.image-holder:hover .i-overlay {
+    opacity: 1.5;
+}
+
+.all-project-display h1{
+    text-align: center;
+    color: blueviolet;
+    font-family: "jaini";
+    font-size: 35px;
+}
+
+
+
+.develop-project{
+    text-align: center;
+    color: goldenrod;
+    font-family: "jaini";
+    font-size: 25px;
+}
+
+.development-title{
+    text-align: center;
+    color: blueviolet;
+    font-family: "jaini";
+    font-size: 25px;
+}
+
+
+/* site reoprt  */
+/* logo */
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+
+.college-info{
+    text-align: center;
+}
+
+.college-info .college-name{
+    color: rgb(181, 3, 3);
+    font-size: 13px;
+}
+
+.college-info .univesity-name{
+    font-size: 13px;
+}
+
+.project-name{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 5vh;
+}
+
+.project-report{
+    text-align: center;
+    font-size: 15px;
+    margin-top:5vh;
+}
+
+
+.submission-detail{
+    text-align: center;
+    font-size: 13px;
+    margin-top: 5vh;
+
+}
+
+.video-link-new{
+    text-decoration: none;
+    font-family: "jaini";
+    
+}
+
+.video2{
+    display: none;
+}
+
+/* Site report table of content */
+.index h2 {
+    text-align: left;
+    margin-left: 25vh;
+    
+}
+.index h3 {
+    text-align: left;
+    margin-left: 25vh;
+}
+.primary-obj-intro h3{
+    margin-left: 5vh;
+}
+
+.index a{
+    color: #000;
+    text-decoration: none
+}
+
+/* Introduction part */
+
+.introduction-part{
+    display: flex;
+    margin-left: 5vh;
+}
+.introdunction-image img{
+    height: 60vh;
+    width:80vh;
+    /* margin-left:75vh; */
+    
+}
+.into-part{
+    font-size: 16px;
+    text-align: left;
+    margin-left: 24vh;
+}
+
+
+.experience-part h1{
+    font-size: 20px;
+    text-align: left;
+    margin-left: 30vh;
+}
+
+.experience-part p{
+    font-size: 17px;
+    text-align: left;
+    margin-left: 30vh;
+}
+.experience-part h3 { 
+    /* font-size: 20px; */
+    text-align: left;
+    margin-left: 30vh;
+}
+
+
+.design-part{
+    display: flex;
+    margin-left: 5vh;
+}
+.design-images .footer-image{
+    height: 20vh;
+    width: 50vh;
+    
+    
+}
+.design-images{
+    display:grid; 
+    /* margin-right: 9vh; */
+    grid-template-columns: repeat(2, 50vh); 
+    grid-template-rows: repeat(2, auto); 
+    
+} 
+
+.design-images .contact-image{
+    height: 20vh;
+   
+}
+
+.design-images .home-image{
+    height: 20vh;
+    
+}
+.design-images .nav-image{
+    height: 60vh;
+   
+}
+
+.design-images .project-image{
+    height: 20vh;
+    
+}
+
+.design-images .site-image{
+    height: 20vh;
+   
+}
+
+.design-images .video-image{
+    height: 20vh;
+  
+}
+
+.footer-info-overlay {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.footer-image {
+    width: 50vh;
+    height: auto;
+    display: block;
+}
+
+.i-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5); 
+    color: #fff; 
+    text-align: center;
+    padding: 10px;
+    opacity: 0; 
+    transition: opacity 0.5s ease; 
+}
+
+.footer-info-overlay:hover .i-overlay {
+    opacity: 1; 
+}
+
+.website-design{
+    font-size: 20px;
+    text-align: left;
+    margin-left: 23vh;
+}
+
+.website-design p{
+    font-size: 17px;
+    text-align: left;
+}
+
+.module-experience h1{
+    font-size: 20px;
+    text-align: left;
+    margin-left: 30vh;
+}
+
+.module-experience p{
+    font-size: 17px;
+    text-align: left;
+    margin-left: 30vh;
+}
+.module-experience h3{
+    font-size: 16px;
+    text-align: left;
+    margin-left: 30vh;
+}
+
+
+.web-development-progress h1{
+    font-size: 20px;
+    text-align: left;
+    margin-left: 30vh;
+
+}
+
+.progress-image{
+    margin-left: 15vh;
+    display: grid;
+    grid-template-columns: repeat(2, 0.1fr); 
+    grid-template-rows: repeat(2, 0.1fr); 
+}
+
+.validation-heading h1{
+    font-size: 20px;
+    text-align: left;
+    margin-left: 30vh;
+}
+
+.reference-title h1{
+    text-align: left;
+    margin-left: 25vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* for hamburger icon */
+#bars{
+    display: none;
+}
+
+.togglearea{
+    background-color: green;
+    padding: 20px;  
+    width: 50px;
+    justify-content: flex-end;
+    display: none;
+}
+.togglearea label
+{
+    background-color: white;
+    height: 45px;
+    width: 50px;
+    color: black;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.togglearea label span{
+    background-color: black;
+    height: 4px;
+    width: 70%;
+    margin: 2px 0px;
+}
+
+@media screen and (max-width:1000px){
+
+    .togglearea{    
+        display: block;
+        width:100vh;
+    }
+    .sidebar {
+        display: none;
+        margin-top: 0.5vh;
+        height: 80vh;
+    }
+    #bars:checked + .sidebar{
+        display: block
+    }
+
+    .sidebar a{
+        display: inline-block;
+        font-size: 30px;
+    } 
+    .aboutme {
+        margin-left: -30vh;
+        margin-top: -20vh;
+        font-size: 30px;
+    }
+    .Software-Engineering{
+        margin-top: -20vh;
+        font-size: 35px;
+    }
+    .desc .name{
+        margin-left: -30vh;
+        font-size: 40px;
+        margin-top: -10vh;
+    }
+    .desc .other-desc{
+        margin-left: -30vh;
+        font-size: 40px;
+    
+    }
+    .tag-line #dream-text{
+        font-size: 40px; 
+    }
+
+    .image-container .tiger{
+        display: none;
+    }
+    .footer{
+        /* margin-top: -20vh; */
+        width: 100vh;
+        height: 30vh;
+    }
+    .footer-info{
+        margin-left: -0.5vh;
+        font-size: 25px;
+    }
+    .icons{
+        margin-top: -0.3vh;
+    }
+
+    /* project page media query */
+
+    .project-title{
+        font-size: 40px;
+    }
+    .projects-list a{
+        font-size: 45px;
+        margin:5vh;
+    }
+    .all-project-display h1{
+        font-size: 45px;
+    }
+
+    .demo-project-1 {
+        display: block;
+        justify-content: center;
+        margin-left: 5vh;
+        width: 50vh;
+    }
+
+    .i-overlay p{
+        font-size: 30px;
+    }
+
+    .projects-list .fa-hand-point-right{
+        display: none;
+    }
+    .all-project-display .fa-hand-point-right{
+        display: none;
+    }
+
+    .all-project-display{
+        margin-left: 20vh;
+    }
+
+    .develop-project{
+        margin-left: 20vh;
+    }
+
+    .developed{
+        margin-left: 20vh;
+    }
+
+    /* contact page */
+    .contact-info{
+        display: block;
+    }
+
+    .map-image{
+        margin-left: -30vh;
+        height: 40vh;
+    }
+
+    .contact-me{
+        margin-left:25vh;
+        /* text-align: center; */
+        justify-content: center;
+        font-size: 30px;
+    }
+
+    .contact-form{
+        margin-left: -5vh;
+    
+    }
+
+    .get-in-touch{
+        margin-left:25vh;
+        /* text-align: center; */
+        justify-content: center;
+        font-size: 30px;
+    }
+
+    /* video Demo site */
+
+    .video {
+        display: none;
+    }
+    .video2{
+        display: block;
+        margin-left: 10vh;
+        height: 44vh;
+    }
+
+
+    /* site report */
+    .logo{
+        margin-left:25vh;
+    }
+
+    .college-info{
+        margin-left:25vh;
+    }
+    .college-name h3{
+        font-size:30px;
+    }
+    .univesity-name h3{
+        font-size:30px;
+    }
+
+    .project-name h3{
+        margin-left:25vh;
+        font-size:25px;
+    }
+
+    .project-report h3{
+        margin-left:25vh;
+        font-size:25px;
+    }
+
+    .submission-detail .submit-to h3{
+        margin-left:25vh;
+        font-size:25px;
+    }
+
+
+    .index{
+        margin-left: -25vh;
+        font-size:28px;
+    }
+
+    .introduction-part{
+        margin-left: -25vh;
+        display: block;
+        font-size:28px;
+    }
+    .introduction-part h1, h3, h4{
+        margin-left: 3vh;
+        font-size:28px;
+    }
+    .introduction-part p{
+        margin-left: 3vh;
+        font-size:28px;
+    }
+    .introdunction-image img{
+        height: 30vh;
+        width: 35vh;
+        
+    }
+
+    .experience-part h1{
+        margin-left: 3vh;
+        font-size:28px;
+    }
+
+    .experience-part h3{
+        margin-left: 3vh;
+        font-size:28px;
+    }
+    .experience-part p{
+        margin-left: 3vh;
+        font-size:28px;
+    }
+
+    .design-part{
+        margin-left: -20vh;
+    }
+    .design-images{
+        display: none;
+    }
+    hr{
+        display: none;
+    }
+    .module-experience{
+        display: none;
+    }
+    
+    .progress-image .progress-image-info-overlay{
+        display: none;
+    }
+}
+
